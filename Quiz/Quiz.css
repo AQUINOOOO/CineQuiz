@@ -1,0 +1,65 @@
+body{
+    
+    background: linear-gradient(90deg,#9939AA 0%, #9F23D5 50%, #9D00FF 100%);
+  font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.app{
+
+width: 90%;
+max-width: 600px;
+margin: 100px auto 0;
+padding: 30px;
+}
+.app h1{
+    font-weight: 25px;
+    color:rgb(255, 255, 255) ;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 600px;
+}
+.button-row {
+  display: flex;
+  gap: 20px; /* espaço entre as colunas */
+  justify-content: center; /* centraliza na tela */
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column; /* empilha os botões na vertical */
+  gap: 10px;
+}
+
+.btn {
+  background-color: rgb(243, 235, 235);
+  color: white;
+  border-color: #d877e9;
+  font-weight: 500;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 50px;
+   background: linear-gradient(90deg,#ba2bd3 0%, #a50be7 50%, #6501a3 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  width: 120px; /* defina uma largura fixa se quiser alinhamento */
+}
+
+#next-btn{
+    background: rgb(1, 1, 99);
+    color: #fff;
+    font-weight: 500px;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none
+
+}
