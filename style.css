@@ -43,3 +43,24 @@ body {
 .nav a:hover {
   background-color: #111;
 }
+
+button {
+  background: linear-gradient(90deg,#7826db 0%, #9843f3 50%, #a75af9 100%);
+  color: black;
+  height: 76px;
+  width: 221px;
+  margin-top: -34px;
+  margin-left: 386px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+
+button:hover{
+  background: linear-gradient(90deg,#de91ec 0%, #e788ec 50%, #e25af4 100%);
+}
