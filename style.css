@@ -1,56 +1,101 @@
-body{
-    background-color: rgb(1, 1, 99);
+body {
+    background: linear-gradient(90deg,#9939AA 0%, #9F23D5 50%, #9D00FF 100%);
+}
 
-}
-.app{
-background-color: white;
-width: 90%;
-max-width: 600px;
-margin: 100px auto 0;
-padding: 30px;
-}
-.app h1{
-    font-weight: 25px;
-    color:rgb(1, 1, 99) ;
-}
-.quiz{
-    padding: 20px 0;
-}
-.quiz h2{
-    font-size: 18px;
-    color: rgb(1, 1, 99);
-    font-weight: 600px;
-}
-.btn{
-    background-color: white;
-    color: #222;
-    font-weight: 500;
-    width: 100%;
-    border: 1px solid #222;
-    padding:  10px;
-    margin: 10px 0;
+.titulo {
+    font-size: 50px;
     text-align: left;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s;
+    margin-top: 200px;    
+    margin-left: 300px;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
-.btn:hover:not([disabled]){
-    background: #222;
-    color: #fff;
-}
-.btn:disabled{
-    cursor: no-drop;
-}
-#next-btn{
-    background: rgb(1, 1, 99);
-    color: #fff;
-    font-weight: 500px;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none
 
+.quiz{
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+.nav {
+  height: 80px;
+  width: 101.2%;
+  background-color: #333;
+  margin: -11px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav a {
+  display: block;
+  padding: 30px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.nav a:hover {
+  background-color: #111;
+}
+
+button {
+  background: linear-gradient(90deg,#7826db 0%, #9843f3 50%, #a75af9 100%);
+  color: black;
+  height: 76px;
+  width: 221px;
+  margin-top: -34px;
+  margin-left: 386px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+
+button:hover{
+  background: linear-gradient(90deg,#de91ec 0%, #e788ec 50%, #e25af4 100%);
+}
+
+.saibaMais {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+  text-align: center;
+  margin-top: 320px;
+}
+
+.quizButton {
+  background: linear-gradient(90deg,#7826db 0%, #9843f3 50%, #a75af9 100%);
+  color: black;
+  height: 76px;
+  width: 221px;
+  margin-top: -34px;
+  margin-left: 23px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.imagem{
+  position: absolute;
+  top: 200px;         
+  right: 350px;       
+  width: 450px;      
+  height: 450px;      
+  z-index: 10;
 }
