@@ -5,7 +5,7 @@ body {
 .titulo {
     font-size: 50px;
     text-align: left;
-    margin-top: 300px;    
+    margin-top: 200px;    
     margin-left: 300px;
     color: aliceblue;
     font-family: "Inter", sans-serif;
@@ -18,6 +18,7 @@ body {
 }
 
 .nav {
+  height: 80px;
   width: 101.2%;
   background-color: #333;
   margin: -11px;
@@ -32,7 +33,7 @@ body {
 
 .nav a {
   display: block;
-  padding: 14px 16px;
+  padding: 30px 16px;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -63,4 +64,38 @@ button {
 
 button:hover{
   background: linear-gradient(90deg,#de91ec 0%, #e788ec 50%, #e25af4 100%);
+}
+
+.saibaMais {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+  text-align: center;
+  margin-top: 320px;
+}
+
+.quizButton {
+  background: linear-gradient(90deg,#7826db 0%, #9843f3 50%, #a75af9 100%);
+  color: black;
+  height: 76px;
+  width: 221px;
+  margin-top: -34px;
+  margin-left: 23px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.imagem{
+  position: absolute;
+  top: 200px;         
+  right: 350px;       
+  width: 450px;      
+  height: 450px;      
+  z-index: 10;
 }
