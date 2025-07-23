@@ -45,9 +45,29 @@ function startQuiz(){
   nexButton.innerHTML = 'Proximo'
   showQuestion()
 }
+function resetState(){
+  nexButton.style.display = 'none'
+  while (answersButtons.firstChild){
+    answersButtons.removeChild(answersButtons.firstChild)
+  }
+}
+
+
 function showQuestion(){
+  resetState()
   let currentQuestion = questions[currentQuestionIndex]
    questionsElement.innerHTML = currentQuestion.questions
+   currentQuestion.answers.forEach((answers) => {
+    let button = document.createElement('button')
+    button.innerHTML = answers.text
+    button.dataset.id = answers.id
+    button.classList.add('btn')
+    button.addEventListener('click',selectAriswer)
+    answersButtons.appendChild(button)
+   })
+   function selectAriswer(e){
+      ans
+   }
 }
   startQuiz()
 
